@@ -56,7 +56,7 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
   }
 }
 
-export const WAVAX = {
-  [ChainId.FUJI]: new Token(ChainId.FUJI,'0xd00ae08403B9bbb9124bB305C09058E32C39A48c',18,'WAVAX','Wrapped AVAX'),
-  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE,'0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',18,'WAVAX','Wrapped AVAX')
+export const WBNB = {
+  [ChainId.BSCTestnet]: new Token(ChainId.BSCTestnet,'0xae13d989dac2f0debff460ac112a837c89baa7cd',18,'WBNB','Wrapped BNB'),
+  [ChainId.BSC]: new Token(ChainId.BSC,'0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',18,'WBNB','Wrapped BNB')
 }

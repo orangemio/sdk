@@ -16,7 +16,7 @@ export class Currency {
   /**
    * The only instance of the base class `Currency`.
    */
-  public static readonly CAVAX: Currency = new Currency(18, 'AVAX', 'Avalanche')
+  public static readonly CBNB: Currency = new Currency(18, 'BNB', 'BNB')
 
   /**
    * Constructs an instance of the base class `Currency`. The only instance of the base class `Currency` is `Currency.ETHER`.
@@ -33,5 +33,5 @@ export class Currency {
   }
 }
 
-const CAVAX = Currency.CAVAX
-export { CAVAX }
+const CBNB = Currency.CBNB
+export { CBNB }

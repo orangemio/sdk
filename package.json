@@ -1,21 +1,21 @@
 {
-  "name": "@pangolindex/sdk",
+  "name": "@pizzaswap/sdk",
   "license": "MIT",
   "version": "1.1.0",
-  "description": "🛠 An SDK for building applications on top of Pangolin.",
+  "description": "🛠 An SDK for building applications on top of Pizza.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pangolindex/sdk",
+  "repository": "https://github.com/orangemio/sdk",
   "keywords": [
-    "pangolin",
-    "avalanche"
+    "PizzaSwap",
+    "BSC"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
-    "lint": "tsdx lint src test",
+    "lint": "tsdx lint src",
     "build": "tsdx build",
     "start": "tsdx watch",
     "test": "tsdx test",
@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "@openzeppelin/cli": "^2.8.2",
-    "@pangolindex/exchange-contracts": "^1.0.1",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
