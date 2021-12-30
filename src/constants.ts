@@ -21,7 +21,7 @@ export enum Rounding {
 
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.BSCTestnet]: '0x94F054F6f9F3A23414D2f6E0Ba1F7a0F627962cb',
-  [ChainId.BSC]: '0x00F9EBd1Cc6931105AdBf66EaCe1b69312Fe28FC'
+  [ChainId.BSC]: '0xB05803cAE7B20Aa280EecBF02091A6B0421A81Ec'
 }
 
 export const INIT_CODE_HASH = '0xe3ee2f4e6506982d4c97d02ed578b51dc7055c7d437dc2c7b302bf16f2b72c22'
