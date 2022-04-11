@@ -6,7 +6,7 @@ export type BigintIsh = JSBI | bigint | string
 export enum ChainId {
   BSCTestnet = 97,
   BSC = 56,
-  ETH = 1
+  KCC = 321
 }
 
 export enum TradeType {
@@ -21,15 +21,15 @@ export enum Rounding {
 }
 
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
-  [ChainId.BSCTestnet]: '0x94F054F6f9F3A23414D2f6E0Ba1F7a0F627962cb',
-  [ChainId.BSC]: '0xB05803cAE7B20Aa280EecBF02091A6B0421A81Ec',
-  [ChainId.ETH]: '0xB05803cAE7B20Aa280EecBF02091A6B0421A81Ec',
+  [ChainId.BSCTestnet]: '0x8A01D7F2e171c222372F0962BEA84b8EB5a3368E',
+  [ChainId.BSC]: '0x8A01D7F2e171c222372F0962BEA84b8EB5a3368E',
+  [ChainId.KCC]: '0x8A01D7F2e171c222372F0962BEA84b8EB5a3368E',
 }
 
 export const INIT_CODE_HASH : { [chainId in ChainId]: string } = {
-  [ChainId.BSCTestnet]: '0xe3ee2f4e6506982d4c97d02ed578b51dc7055c7d437dc2c7b302bf16f2b72c22',
-  [ChainId.BSC]: '0xe3ee2f4e6506982d4c97d02ed578b51dc7055c7d437dc2c7b302bf16f2b72c22',
-  [ChainId.ETH]: '0x4b5943b2b8bb25c90c992f4c787371fa0dc988da27a9fd44f21cd335be6f0d79',
+  [ChainId.BSCTestnet]: '0xb3fc7cf25e88f4dc5963807449ac0a42f7a9fc2eb8302fbeb5753bbd5a0e3afc',
+  [ChainId.BSC]: '0xb3fc7cf25e88f4dc5963807449ac0a42f7a9fc2eb8302fbeb5753bbd5a0e3afc',
+  [ChainId.KCC]: '0x8219a90d6773d65f6fdb6947d189b719d05c173957bde022aa4e48035376c9b2',
 }
 
 
