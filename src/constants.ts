@@ -6,7 +6,7 @@ export type BigintIsh = JSBI | bigint | string
 export enum ChainId {
   BSCTestnet = 97,
   BSC = 56,
-  KCC = 321
+  CRO = 25
 }
 
 export enum TradeType {
@@ -23,13 +23,13 @@ export enum Rounding {
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.BSCTestnet]: '0x8A01D7F2e171c222372F0962BEA84b8EB5a3368E',
   [ChainId.BSC]: '0x8A01D7F2e171c222372F0962BEA84b8EB5a3368E',
-  [ChainId.KCC]: '0x8A01D7F2e171c222372F0962BEA84b8EB5a3368E',
+  [ChainId.CRO]: '0x8A01D7F2e171c222372F0962BEA84b8EB5a3368E',
 }
 
 export const INIT_CODE_HASH : { [chainId in ChainId]: string } = {
   [ChainId.BSCTestnet]: '0xb3fc7cf25e88f4dc5963807449ac0a42f7a9fc2eb8302fbeb5753bbd5a0e3afc',
   [ChainId.BSC]: '0xb3fc7cf25e88f4dc5963807449ac0a42f7a9fc2eb8302fbeb5753bbd5a0e3afc',
-  [ChainId.KCC]: '0x8219a90d6773d65f6fdb6947d189b719d05c173957bde022aa4e48035376c9b2',
+  [ChainId.CRO]: '0x683297db8edf7b868dd0c5d03ca55b3cd6ac021beb3ad6eb8ab3db5020796d8c',
 }
 
 
