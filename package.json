@@ -1,7 +1,7 @@
 {
   "name": "teddyswap-sdk",
   "license": "MIT",
-  "version": "5.0.1",
+  "version": "6.0.1",
   "description": "🛠 An SDK for building applications on top of Teddy.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

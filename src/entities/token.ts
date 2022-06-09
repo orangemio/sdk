@@ -59,5 +59,5 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 export const WBNB = {
   [ChainId.BSCTestnet]: new Token(ChainId.BSCTestnet,'0xae13d989dac2f0debff460ac112a837c89baa7cd',18,'WBNB','Wrapped BNB'),
   [ChainId.BSC]: new Token(ChainId.BSC,'0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',18,'WBNB','Wrapped BNB'),
-  [ChainId.MATIC]: new Token(ChainId.MATIC,'0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',18,'WMATIC','Wrapped MATIC')
+  [ChainId.FTM]: new Token(ChainId.FTM,'0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83',18,'WFTM','Wrapped FTM')
 }
